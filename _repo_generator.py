@@ -340,6 +340,8 @@ class Generator:
                         color_text(addons_xml_path, 'yellow'), color_text(e, 'red')
                     )
                 )
+        
+        return False
 
     def _generate_md5_file(self, addons_xml_path, md5_path):
         """
